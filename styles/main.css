@@ -17,6 +17,7 @@ main {
   border-radius: 2rem; /* 20px */
   align-items: start;
   vertical-align: top;
+  background-color: var(--white);
 }
 
 .content {
@@ -36,7 +37,7 @@ main {
   background-color: var(--yellow);
   border-radius: 0.4rem;
   padding: 0.4rem 1.2rem;
-  text-align: center;
+  width: min-content;
 }
 
 .publish-date {
