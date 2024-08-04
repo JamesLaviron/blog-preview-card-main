@@ -17,6 +17,7 @@ main {
   background-color: var(--white);
   width: min-content;
   filter: drop-shadow(0.8rem 0.8rem 0 0 var(--gray-950));
+  border: 1px solid black;
 }
 
 .content {
