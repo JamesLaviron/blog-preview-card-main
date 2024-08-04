@@ -15,8 +15,8 @@ main {
   align-items: start;
   vertical-align: top;
   background-color: var(--white);
-  width: min-content;
   max-width: 38.4rem;
+  min-width: 32.7rem;
   filter: drop-shadow(0.8rem 0.8rem 0 black);
   border: 1px solid black;
 }
@@ -29,7 +29,7 @@ main {
 }
 
 .blog-image {
-  min-width: 32.7rem;
+  width: 100%;
   height: 20rem; /* 320px */
   border-radius: 1rem; /* 10px */
 }
