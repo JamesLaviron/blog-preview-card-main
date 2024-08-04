@@ -18,13 +18,13 @@ main {
   background-color: var(--white);
   max-width: 38.4rem;
   min-width: 32.7rem;
-  filter: drop-shadow(0.8rem 0.8rem 0 black);
+  filter: drop-shadow(var(--spacing-100) var(--spacing-100) 0 black);
   border: 1px solid black;
 }
 
 .content {
   display: grid;
-  gap: 1.2rem;
+  gap: var(--spacing-150);
   align-items: start;
   vertical-align: top;
 }
@@ -38,8 +38,8 @@ main {
 .category {
   color: var(--gray-950);
   background-color: var(--yellow);
-  border-radius: 0.4rem;
-  padding: 0.4rem 1.2rem;
+  border-radius: var(--spacing-50);
+  padding: var(--spacing-50) var(--spacing-150);
   width: min-content;
 }
 
@@ -57,7 +57,7 @@ main {
 
 .signature {
   display: flex;
-  gap: 1.2rem;
+  gap: var(--spacing-150);
 }
 
 .signature .name {
