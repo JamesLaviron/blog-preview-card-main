@@ -48,6 +48,7 @@ main {
 
 .content .title {
   color: var(--gray-950);
+  cursor: pointer;
 }
 
 .content .description {
