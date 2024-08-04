@@ -19,7 +19,6 @@ main {
   max-width: 38.4rem;
   min-width: 32.7rem;
   filter: drop-shadow(var(--spacing-100) var(--spacing-100) 0 black);
-  border: 1px solid black;
 }
 
 .content {
