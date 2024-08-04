@@ -19,6 +19,7 @@ main {
   max-width: 38.4rem;
   min-width: 32.7rem;
   filter: drop-shadow(var(--spacing-100) var(--spacing-100) 0 black);
+  box-shadow: inset 0px 0px 0px 1px #000;
 }
 
 .content {
