@@ -1,7 +1,7 @@
 /* Text Preset 1 */
 .text-preset-1 {
   font-family: "Figtree", sans-serif;
-  font-size: clamp(2rem, 1.5vw, 2.4rem);
+  font-size: clamp(2rem, 5.3vw, 2.4rem);
   line-height: 1.5;
   letter-spacing: 0;
   font-weight: 800;
@@ -10,7 +10,7 @@
 /* Text Preset 2 */
 .text-preset-2 {
   font-family: "Figtree", sans-serif;
-  font-size: clamp(1.4rem, 1.5vw, 1.6rem);
+  font-size: clamp(1.4rem, 3.6vw, 1.6rem);
   line-height: 1.5;
   letter-spacing: 0;
   font-weight: 500;
@@ -19,7 +19,7 @@
 /* Text Preset 3 */
 .text-preset-3 {
   font-family: "Figtree", sans-serif;
-  font-size: clamp(1.2rem, 1.5vw, 1.4rem);
+  font-size: clamp(1.2rem, 3.2vw, 1.4rem);
   line-height: 1.5; /* 150% */
   letter-spacing: 0;
   font-weight: 500;
@@ -34,7 +34,7 @@
 }
 
 .content .text-preset-3-bold {
-  font-size: clamp(1.2rem, 1.5vw, 1.4rem);
+  font-size: clamp(1.2rem, 3.2vw, 1.4rem);
 }
 
 .signature .text-preset-3-bold {
